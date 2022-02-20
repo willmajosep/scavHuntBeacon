@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Badges</title>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type="text/javascript" src="js/moment.js"></script>
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	<link href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/foundation.css">
+	<link rel="stylesheet" href="css/blink.css">
+	<link href="SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css">
+	<script src="SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
+	
+	<style>
+	body{
+		background-image:url("cloud.jpg");
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+	</style>
+</head>
+
+<body>
+	<!-- ##################################################################################### -->
+	<!-- HEADER MULA -->
+	<div class="row">
+		<div align="center" class="large-12 medium-12">
+		  <h1>COMPLETED TASKS</h1>
+			<p><i>Excellent Job! Here are the completed task so far.</i></p>
+		</div>
+	</div>
+	<hr/>
+	<!-- HEADER TAMAT -->
+	<!-- ################################################################################### -->
+	<!-- MENU MULA -->
+	<div class="row">
+		<div class="large-12 medium-12">
+			<div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="large">
+				<button class="menu-icon" type="button" data-toggle></button>
+				<div class="title-bar-title">Menu</div>
+			</div>
+			<div data-sticky-container>
+				<div class="top-bar sticky" id="example-menu" data-sticky data-margin-top="0">
+					<div class="top-bar-left">
+						<ul class="dropdown menu" data-dropdown-menu>
+							<li><a href="map.html">Home</a></li>
+							<li><a href="badges.html">Badges</a></li>
+							<li><a href="completed.html">Completed</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- MENU TAMAT -->
+	<!-- ##################################################################################### -->
+	<div class="grid-container">	  
+		<div class="large-12 medium-12">
+				<div class="success callout" data-closable="slide-out-right">
+				  <p>Wow! You know a lot about parrot.</p>
+				  <button class="close-button" aria-label="Dismiss alert" type="button" data-close>
+					<span aria-hidden="true">&times;</span>
+				  </button>
+	
+				</div>
+		</div>
+	</div>
+		<div class="grid-container">	  
+		<div class="large-12 medium-12">
+				<div class="success callout" data-closable="slide-out-right">
+				  <p>Correct answer!</p>
+				  <button class="close-button" aria-label="Dismiss alert" type="button" data-close>
+					<span aria-hidden="true">&times;</span>
+				  </button>
+	
+				</div>
+		</div>
+	</div>
+	
+	<div class="row">
+				<div class="large-12 medium-12">
+					<div class="large-12 medium-12">
+						<br><a href="badges.html" class="button primary">Next</a>
+					</div>
+				</div>
+			</div>
+
+<div class="row">
+	<div class="row">
+		<div class="large-12 medium-12">
+			<div align="center" id="bar" style="height: 250px;"></div>
+		</div>
+	</div>
+	
+
+	<script src="js/vendor/jquery.js"></script>
+	<script src="js/vendor/what-input.js"></script>
+	<script src="js/vendor/foundation.js"></script>
+	<script src="js/app.js"></script>
+	<script type="text/javascript"></script>
+	
+	</div>
+</body>
+</html>
